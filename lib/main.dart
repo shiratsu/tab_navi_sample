@@ -55,9 +55,7 @@ class _MainPageState extends State<MainPage> {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-          // appBar: AppBar(
-          //   title: Text('demo'),
-          // ),
+          
           body: Stack(
             children: <Widget>[
               _buildTabItem(
