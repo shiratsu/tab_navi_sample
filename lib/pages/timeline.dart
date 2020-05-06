@@ -7,8 +7,11 @@ class TimeLine extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Center(
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("TimeLine"),
+      ),
+      body: Center(
         child: FlatButton(
           child: Text('TimeLine'),
           color: Colors.amberAccent,

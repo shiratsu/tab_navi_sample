@@ -7,8 +7,11 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Center(
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Home"),
+      ),
+      body: Center(
         child: FlatButton(
           child: Text('Home'),
           color: Colors.amberAccent,
